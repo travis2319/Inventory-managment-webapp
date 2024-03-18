@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login-page/style.css">
+    <title>Sign Up</title>
+</head>
+<!-- <body>
+    <h2>Sign Up</h2>
+    <form action="signup.php" method="post">
+        <input type="text" name="emp_id" placeholder="Employee ID" required><br>
+        <input type="text" name="name" placeholder="Full name" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <input type="date" name="dob" placeholder="Date" required><br>
+        <textarea type="text" name="address" id="" cols="30" rows="10" class="" placeholder="Address" ></textarea><br>
+        <input type="submit" value="Sign Up">
+        <a href="login.html">Already have an account?Login Here</a><br><br>
+    </form>
+</body>
+ -->
+<body>
+    <div class="wrapper">
+        <form action="signup.php" method="post">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" name="emp_id" placeholder="Employee ID" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full name" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="date" name="dob" placeholder="Date" required>
+                <i class='bx bxs-lock-open-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" name="address"  placeholder="Pin Code">
+                <i class='bx bxs-lock-open-alt'></i>
+            </div>
+            <button type="submit" class="btn">register</button>
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">
+                        Login
+                    </a></p>
+            </div>
+        </form>
+    </div>
+</body> 
+</html>
